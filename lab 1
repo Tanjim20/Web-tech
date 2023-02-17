@@ -1,0 +1,73 @@
+<html>
+   <title>Public Home</title>
+
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    body{
+         
+    }
+    
+    h1{
+        color: rgb(247, 44, 8);
+    }
+    .loginfrom{
+        text-align: center;
+    }
+    .loginmaindiv{
+        margin-left: 40%;
+        margin-top: 5%;
+        box-sizing: border-box;
+
+    }
+    .loginsubBtn{
+        padding: 3px 3px;
+        
+    }
+    .loginsubBtn:hover {
+    background-color: yellow;
+}
+   </style>
+
+   <body>
+
+    <div class="loginmaindiv">
+    <form method="get" action="LogIn" enctype="">
+    <Table border="3" >
+      
+        <tr>
+            <td><legend>Log in Page</legend></td> 
+        </tr>
+      
+      
+        <tr height="400px" width="300px" >
+            <td>
+            <fieldset class="loginfrom">
+                <legend>Log In </legend><br>
+                Name :<input type="text" name="UserName" value="" placeholder="Name" /><br><br>
+                Surame :<input type="text" name="UserName" value="" placeholder="Surame" /><br><br>
+                Father name:<input type="text" name="userName" value="" placeholder="Father Name" /><br><br>
+                Mother name:<input type="text" name="UserName" value="" placeholder="Mother Name" /><br><br>
+                NID Number :<input type="number" name="UserNumber" value="" placeholder="NID Number" /><br><br>
+                Present_Address :<input type="text" name="User Number" value="" placeholder="Present Address" /><br><br>
+                Permanent_Address :<input type="text" name="UserName" value="" placeholder="Permanent Address" /><br><br>
+                Phone Number :<input type="number" name="UserNumber" value="" placeholder="Phone Number" /><br><br>
+                Email:<input type="text" name="UserName" value="" placeholder="Email" /><br><br>
+                Birth of date:<input type="number" name="UserNumber" value="" placeholder="Date of Birth" /><br><br>
+                Passport number:<input type="number" name="UserNumber" value="" placeholder="Passport Number" /><br><br>
+                Nationallty:<input type="text" name="UserName" value="" placeholder="Nationallty" /><br><br>
+                Password :<input type="password" name="Password" value="" placeholder="Password" /><br><br>
+                <input class="loginsubBtn" type="submit" name="" value="Submit"/><br>
+            </fieldset>
+        </td>
+        </tr>
+    </Table>
+</form>
+</div>
+   </body>
+
+</html>
