@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/action_page.php">
+<fieldset>
+<legend>Name</legend>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname"><br><br>
+</fieldset>
+</form>
+<form action ="action_page.php">
+<fieldset>
+<legend>Email</legend>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+</fieldset>
+</form>
+<form action ="action_page.php">
+<fieldset>
+<legend>Date of birth</legend>
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday"><br><br>
+</fieldset>
+</form>
+<form action ="action_page.php">
+<fieldset>
+<legend>Gender</legend>
+<input type="radio" id="male" name="gender" value="gender"> 
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender" value="gender">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="gender">
+<label for="other">Other</label>
+</fieldset>
+</form>
+<form action ="action_page.php">
+<fieldset>
+<legend>Degree</legend>
+<input type="checkbox" id="ssc" name="ssc" value="degree">
+<label for="vehicle1">SSC</label>
+<input type="checkbox" id="hsc" name="hsc" value="degree">
+<label for="vehicle2">HSC</label>
+<input type="checkbox" id="bsc" name="bsc" value="degree">
+<label for="vehicle1">BSc</label>
+<input type="checkbox" id="msc" name="msc" value="degree">
+<label for="vehicle2">MSc</label>
+</fieldset>
+</form>
+<form action="/action_page.php">
+<fieldset>
+<legend>Blood Group</legend>
+<label for="bgroup">Blood Group:</label>
+<select name="bgroup" id="bgroup">
+<option value="A+">A+</option>
+<option value="A-">A-</option>
+<option value="B+">B+</option>
+<option value="B-">B-</option>
+<option value="B-">O+</option>
+<option value="B+">O-</option>
+<option value="B-">AB+</option>
+<option value="B+">AB-</option> 
+</select>
+<br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
